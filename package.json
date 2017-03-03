@@ -1,0 +1,41 @@
+{
+  "name": "node-validate-email",
+  "version": "1.0.0",
+  "description": "Validates email using DNS query and RegExp",
+  "main": "dist/validate.js",
+  "scripts": {
+    "build": "webpack --colors",
+    "dev": "webpack --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euskadi31/node-validate-email.git"
+  },
+  "keywords": [
+    "email",
+    "validator",
+    "dns"
+  ],
+  "author": {
+    "email": "aetcheverry@molotov.tv",
+    "name": "Axel Etcheverry"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euskadi31/node-validate-email/issues"
+  },
+  "homepage": "https://github.com/euskadi31/node-validate-email#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2",
+    "tslint": "^4.0.2",
+    "tslint-loader": "^3.2.0",
+    "typescript": "^2.1.6",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.5"
+  }
+}
