@@ -3,18 +3,21 @@
         "module": "commonjs",
         "outDir": "dist/",
         "sourceMap": true,
+        "moduleResolution": "node",
         "removeComments": true,
         "noUnusedLocals": true,
         "target": "es5",
         "typeRoots": [
-            "../node_modules/@types/",
-            "../src/typings/"
+            "node_modules/@types/",
+            "src/typings/"
         ],
         "types": [
-            "core-js"
+            "core-js",
+            "node"
         ]
     },
     "exclude": [
+         "dist",
         "node_modules"
     ]
 }

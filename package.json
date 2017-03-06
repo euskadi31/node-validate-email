@@ -4,8 +4,8 @@
   "description": "Validates email using DNS query and RegExp",
   "main": "dist/validate.js",
   "scripts": {
-    "build": "webpack --colors",
-    "dev": "webpack --colors --watch",
+    "build": "tsc",
+    "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

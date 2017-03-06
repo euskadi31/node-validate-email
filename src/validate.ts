@@ -44,12 +44,11 @@ function dnsResolve(hostname: string, rrtype: string): Promise<boolean> {
 }
 
 export default class EmailValidator {
-
     constructor() {
 
     }
 
-    public validate(email): Promise<boolean> {
+    public validate(email: string): Promise<boolean> {
         email = email.toLowerCase();
 
         if (!emailRegexp.test(email)) {
