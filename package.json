@@ -27,15 +27,8 @@
   },
   "homepage": "https://github.com/euskadi31/node-validate-email#readme",
   "devDependencies": {
-    "@types/core-js": "^0.9.35",
-    "source-map-loader": "^0.1.5",
-    "ts-loader": "^1.2.2",
+    "@types/node": "^7.0.5",
     "tslint": "^4.0.2",
-    "tslint-loader": "^3.2.0",
-    "typescript": "^2.1.6",
-    "webpack": "^1.14.0"
-  },
-  "dependencies": {
-    "@types/node": "^7.0.5"
+    "typescript": "^2.2.1"
   }
 }
